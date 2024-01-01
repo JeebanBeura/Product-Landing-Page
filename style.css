@@ -8,6 +8,10 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
   }
+  main{
+    background-image: url(imgs.jpg);
+    color: white;
+  }
   
   ul {
     list-style: none;
@@ -16,7 +20,9 @@
   a {
     text-decoration: none;
   }
-  
+  h3{
+    color: black;
+  }
  
   #container {
     max-width: 960px;
@@ -113,6 +119,8 @@
   }
   
   #how-it-work {
+
+
     padding: 3rem;
     margin: auto;
     text-align: center;
@@ -132,7 +140,6 @@
   }
   
   .price-box {
-    border: solid #333 3px;
     border-radius: 2px;
     text-align: center;
   }
